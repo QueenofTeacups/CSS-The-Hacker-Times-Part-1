@@ -21,6 +21,7 @@ nav{
     margin: 1em 0;
     top: 0;
     background: white;
+    position: sticky;
 }
 
 nav ul{
@@ -54,10 +55,15 @@ li{
 body{
     background-color: #eee;
     font-weight: 200;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a{
     text-decoration: none;
+}
+
+.more-articles{
+    display: inline-flex;
+    width: auto;
 }
 
